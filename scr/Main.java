@@ -4,6 +4,10 @@ public class Main {
         System.out.println("Doctor surname - " + d1.getSurname() + "; name - " + d1.getName());
         System.out.println("Doctor birth day - " + d1.getBirthDay() + "; month - " + d1.getBirthMonth() + "; year - " + d1.getBirthYear());
 
+        Doctor d2 = new Doctor("Petrov", "Peter", 4, 12, 1984);
+        System.out.println("Doctor surname - " + d2.getSurname() + "; name - " + d2.getName());
+        System.out.println("Doctor birth day - " + d2.getBirthDay() + "; month - " + d2.getBirthMonth() + "; year - " + d2.getBirthYear());
+
         Hospital h1 = new Hospital();
         h1.inputHospital();
 
@@ -12,6 +16,9 @@ public class Main {
 
         Procedure pr1 = new Procedure("PCR TEST", 1);
         System.out.println("Your procedure name is - " + pr1.getName() + "; Your procedure time is - " + pr1.getTicketTime() + " hours");
+        
+        Procedure pr2 = new Procedure("ORV TEST", 1);
+        System.out.println("Your procedure name is - " + pr2.getName() + "; Your procedure time is - " + pr2.getTicketTime() + " hours");
 
         Patients p1 = new Patients("Sokolov", "Ivan", 10, 10, 2000, 1);
         System.out.println("Patients surname - " + p1.getSurname() + "; name - " + p1.getName());
