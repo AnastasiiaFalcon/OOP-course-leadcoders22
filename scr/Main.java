@@ -11,7 +11,7 @@ public class Main {
         i1.inputInfo();
 
         Procedure pr1 = new Procedure("PCR TEST", 1);
-        System.out.println("Your procedure name is - " + pr1.getName() + "; Your procedure time is - " + pr1.getProcedureTime() + " hours");
+        System.out.println("Your procedure name is - " + pr1.getName() + "; Your procedure time is - " + pr1.getTicketTime() + " hours");
 
         Patients p1 = new Patients("Sokolov", "Ivan", 10, 10, 2000, 1);
         System.out.println("Patients surname - " + p1.getSurname() + "; name - " + p1.getName());
@@ -21,7 +21,7 @@ public class Main {
         Status s1 = new Status();
         s1.inputStatus();
 
-        Insurance i1 = new Insurance();
-        i1.inputInsurance();
+        Insurance ins1 = new Insurance();
+        ins1.inputInsurance();
     }
 }
